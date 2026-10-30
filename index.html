@@ -70,6 +70,61 @@ footer{background:#111;color:#fff;padding:45px 0 20px}.footer-top{display:flex;a
 .cart-trigger .cart-text{display:none}.cart-trigger i{font-size:18px}
 .hero{padding:12px 0 35px}.hero-shell{grid-template-columns:1fr;min-height:0}.hero-copy{padding:34px 24px 30px}.eyebrow{margin-bottom:22px;font-size:9px}.hero h1{font-size:clamp(67px,17vw,104px);margin-bottom:23px}.hero-copy p:not(.eyebrow){font-size:12px;max-width:300px}.hero-media{min-height:380px}.hero-seal{width:76px;height:76px;font-size:8px}.section{padding:53px 0}.section-head{align-items:flex-start;flex-direction:column;gap:16px}.section h2{font-size:clamp(43px,12vw,65px)}.section-description{max-width:100%}.shop-tools{align-items:flex-start;flex-direction:column}.filters{gap:6px}.filter{padding:9px 11px;font-size:8px}.products{grid-template-columns:repeat(2,minmax(0,1fr));gap:25px 10px}.product-photo{aspect-ratio:.72}.product-label{top:8px;left:8px;padding:6px 7px;font-size:7px}.add-btn{left:7px;right:7px;bottom:7px;height:37px;font-size:8px}.product-details{padding-top:10px}.product-details h3,.product-price{font-size:11px}.product-description{font-size:8px}.editorial{grid-template-columns:1fr;min-height:auto}.editorial-photo{min-height:450px}.editorial-copy{padding:32px 24px 38px}.editorial-copy h2{font-size:clamp(51px,13vw,76px)}.how-grid{grid-template-columns:1fr}.how-card,.how-card:not(:first-child){padding:20px 0;border-right:0;border-bottom:1px solid #d9d7d0}.how-card:last-child{border-bottom:0}.how-card h3{margin:14px 0 7px}.footer-top{flex-direction:column;padding-bottom:28px}.footer-links{gap:15px}.footer-bottom{flex-direction:column;gap:9px}.cart-footer{padding:16px}.drawer-head{padding:0 18px}.drawer-body{padding:18px}.cart-item{grid-template-columns:64px 1fr auto;gap:10px}.cart-thumb{width:64px;height:78px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}
+
+/* Mobile Footer Layout */
+@media (max-width: 768px) {
+    footer {
+        padding: 35px 0 20px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .footer-brand {
+        justify-content: center;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 14px 22px;
+        width: 100%;
+    }
+
+    .footer-links a {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .footer-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 12px;
+        padding-top: 20px;
+        margin-top: 25px;
+        line-height: 1.6;
+    }
+
+    .footer-bottom span {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 380px) {
+    .footer-links {
+        flex-direction: column;
+        gap: 13px;
+    }
+}
+
 </style>
 </head>
 <body>
@@ -124,11 +179,20 @@ footer{background:#111;color:#fff;padding:45px 0 20px}.footer-top{display:flex;a
       <article class="product-card" data-category="tops" data-name="GOATED Adult T-Shirt" data-price="280" data-image="images/products/shirt1.png">
         <div class="product-photo"><img src="images/products/shirt1.png" alt="GOATED Adult T-Shirt" loading="lazy"><span class="product-label">Adult</span><button class="add-btn" data-add>Add to bag +</button></div><div class="product-details"><div class="product-name-line"><h3>GOATED Adult T-Shirt</h3><span class="product-price">R280</span></div><p class="product-description">Adult / Core collection</p></div>
       </article>
+      <article class="product-card" data-category="tops" data-name="GOATED Adult T-Shirt" data-price="280" data-image="images/products/shirt2.png">
+        <div class="product-photo"><img src="images/products/shirt2.png" alt="GOATED Adult T-Shirt" loading="lazy"><span class="product-label">Adult</span><button class="add-btn" data-add>Add to bag +</button></div><div class="product-details"><div class="product-name-line"><h3>GOATED Adult T-Shirt</h3><span class="product-price">R280</span></div><p class="product-description">Adult / Core collection</p></div>
+      </article>
+      <article class="product-card" data-category="tops" data-name="GOATED Adult T-Shirt" data-price="280" data-image="images/products/shirt3.png">
+        <div class="product-photo"><img src="images/products/shirt3.png" alt="GOATED Adult T-Shirt" loading="lazy"><span class="product-label">Adult</span><button class="add-btn" data-add>Add to bag +</button></div><div class="product-details"><div class="product-name-line"><h3>GOATED Adult T-Shirt</h3><span class="product-price">R280</span></div><p class="product-description">Adult / Core collection</p></div>
+      </article>
+      <article class="product-card" data-category="tops" data-name="GOATED Adult T-Shirt" data-price="280" data-image="images/products/shirt1.png">
+        <div class="product-photo"><img src="images/products/shirt7.png" alt="GOATED Adult T-Shirt" loading="lazy"><span class="product-label">Adult</span><button class="add-btn" data-add>Add to bag +</button></div><div class="product-details"><div class="product-name-line"><h3>GOATED Adult T-Shirt</h3><span class="product-price">R280</span></div><p class="product-description">Adult / Core collection</p></div>
+      </article>
       <article class="product-card" data-category="tops" data-name="GOATED Adult T-Shirt - White" data-price="280" data-image="images/products/shirt2.png">
-        <div class="product-photo"><img src="images/products/shirt2.png" alt="GOATED Adult T-Shirt White" loading="lazy"><span class="product-label">Adult</span><button class="add-btn" data-add>Add to bag +</button></div><div class="product-details"><div class="product-name-line"><h3>GOATED Adult T-Shirt - White</h3><span class="product-price">R280</span></div><p class="product-description">Adult / Core collection</p></div>
+        <div class="product-photo"><img src="images/products/shirt6.png" alt="GOATED Adult T-Shirt White" loading="lazy"><span class="product-label">Adult</span><button class="add-btn" data-add>Add to bag +</button></div><div class="product-details"><div class="product-name-line"><h3>GOATED Adult T-Shirt - White</h3><span class="product-price">R280</span></div><p class="product-description">Adult / Core collection</p></div>
       </article>
       <article class="product-card" data-category="tops" data-name="GOATED Adult T-Shirt - Black" data-price="280" data-image="images/products/shirt3.png">
-        <div class="product-photo"><img src="images/products/shirt3.png" alt="GOATED Adult T-Shirt Black" loading="lazy"><span class="product-label">Adult</span><button class="add-btn" data-add>Add to bag +</button></div><div class="product-details"><div class="product-name-line"><h3>GOATED Adult T-Shirt - Black</h3><span class="product-price">R280</span></div><p class="product-description">Adult / Core collection</p></div>
+        <div class="product-photo"><img src="images/products/shirt5.png" alt="GOATED Adult T-Shirt Black" loading="lazy"><span class="product-label">Adult</span><button class="add-btn" data-add>Add to bag +</button></div><div class="product-details"><div class="product-name-line"><h3>GOATED Adult T-Shirt - Black</h3><span class="product-price">R280</span></div><p class="product-description">Adult / Core collection</p></div>
       </article>
       <article class="product-card" data-category="tops" data-name="GOATED Kids T-Shirt" data-price="200" data-image="images/products/shirt4.png">
         <div class="product-photo"><img src="images/products/shirt4.png" alt="GOATED Kids T-Shirt" loading="lazy"><span class="product-label">Kids</span><button class="add-btn" data-add>Add to bag +</button></div><div class="product-details"><div class="product-name-line"><h3>GOATED Kids T-Shirt</h3><span class="product-price">R200</span></div><p class="product-description">Kids / Everyday wear</p></div>
@@ -207,7 +271,30 @@ footer{background:#111;color:#fff;padding:45px 0 20px}.footer-top{display:flex;a
     <div class="how-grid"><div class="how-card"><span class="how-number">STEP 01</span><h3>Choose your pieces</h3><p>Browse the collection and add the products you want to your bag.</p></div><div class="how-card"><span class="how-number">STEP 02</span><h3>Set your preferences</h3><p>Choose your size, colour and quantity before you send the order.</p></div><div class="how-card"><span class="how-number">STEP 03</span><h3>Chat to GOATED</h3><p>Send the order through WhatsApp. We’ll get back to you to confirm the details.</p></div></div>
   </section>
 </main>
-<footer><div class="container"><div class="footer-top"><a class="footer-brand wordmark" href="#home"><img class="logo-icon" src="images/foat.png" alt="GOATED logo"><span>GOATED<small>THE GREATEST NEVER FOLLOW</small></span></a><div class="footer-links"><a href="#shop">Shop collection</a><a href="#story">Our mindset</a><a href="#ordering">How to order</a><a href="tel:0671603859">067 160 3859</a><a href="https://wa.me/27671603859" target="_blank" rel="noopener">WhatsApp us</a></div></div><div class="footer-bottom"><span>© <span id="year"></span> GOATED. All rights reserved.</span><span>THE GREATEST NEVER FOLLOW.</span></div></div></footer>
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <a class="footer-brand wordmark" href="#home">
+        <img class="logo-icon" src="images/foat.png" alt="GOATED logo">
+        <span>GOATED<small>THE GREATEST NEVER FOLLOW</small></span>
+      </a>
+
+      <div class="footer-links">
+        <a href="#shop">Shop collection</a>
+        <a href="#story">Our mindset</a>
+        <a href="#ordering">How to order</a>
+        <a href="tel:0671603859">067 160 3859</a>
+        <a href="https://wa.me/27671603859" target="_blank" rel="noopener">WhatsApp us</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> GOATED. All rights reserved.</span>
+      <span>THE GREATEST NEVER FOLLOW.</span>
+      <span>Developed by <a href="https://valoyitech.co.za/" target="_blank" rel="noopener noreferrer" style="color:#fff;font-weight:800;text-decoration:none;">ValoyItech</a></span>
+    </div>
+  </div>
+</footer>
 
 <div class="overlay" id="overlay"></div>
 <aside class="drawer left" id="menuDrawer" aria-label="Navigation menu" aria-hidden="true"><div class="drawer-head"><a class="wordmark" href="#home"><img class="logo-icon" src="images/goat.png" alt="GOATED logo"><span>GOATED<small>THE GREATEST NEVER FOLLOW</small></span></a><button class="drawer-close" data-close aria-label="Close navigation">×</button></div><div class="drawer-body"><nav class="side-nav"><a href="#shop">Shop all <span>↗</span></a><a href="#shop" data-side-filter="tops">T-shirts <span>↗</span></a><a href="#shop" data-side-filter="outerwear">Hoodies & sweaters <span>↗</span></a><a href="#shop" data-side-filter="accessories">Caps & bucket hats <span>↗</span></a><a href="#story">Our mindset <span>↗</span></a><a href="#ordering">How to order <span>↗</span></a></nav><div class="side-menu-note">GOATED<br>THE GREATEST NEVER FOLLOW</div></div></aside>
